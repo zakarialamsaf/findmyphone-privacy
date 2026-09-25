@@ -43,82 +43,132 @@
   </div></header>
   <main>
     <h1>Privacy Policy — Find My Phone</h1>
-    <p><strong>Last updated: 21 September 2026</strong></p>
-    <p><strong>Contact: lamsafzakaria50@gmail.com</strong></p>
+    <p class="muted"><strong>Last updated:</strong> 25 September 2026<br>
+       <strong>Contact:</strong> <a href="mailto:findmyphone.support@gmail.com">findmyphone.support@gmail.com</a></p>
+
     <h2>What this app does</h2>
-    <p>Find My Phone lets phones that have been deliberately paired with each other ask one another</p>
-    <p>to report their location.</p>
+    <p>Find My Phone lets phones that have been deliberately paired with each other ask one
+       another to report their location, ring, or share where they are for a while.</p>
+
     <h2>What we collect</h2>
     <ul>
-    <li><strong>Location.</strong> Precise or approximate location, collected <strong>only</strong> when a phone you have</li>
+      <li><strong>Location.</strong> Precise or approximate location. It is collected in three
+        situations, all of which you, or somebody you have paired with, start deliberately:
+        <ul>
+          <li><strong>A locate request.</strong> A paired phone asks where yours is; your phone
+            answers once, at that moment, and stops.</li>
+          <li><strong>Location sharing.</strong> You choose to share your position for a period
+            you pick &mdash; fifteen minutes, an hour, eight hours, or until you stop it. While
+            a session is running your phone reports its position about every thirty seconds.
+            Sending an <strong>SOS</strong> starts a session of this kind that runs until you
+            cancel it.</li>
+          <li><strong>Stolen mode.</strong> If you have turned on <em>&ldquo;Let trusted phones
+            report this phone stolen&rdquo;</em> in Settings, a phone you have paired with can
+            start a sharing session on your phone remotely, so it can be found if it is taken.
+            This is off unless you turn it on, and you can turn it off at any time. While it
+            runs, Android shows a permanent notification saying the app is using your location;
+            that notification cannot be hidden.</li>
+        </ul>
+      </li>
     </ul>
-    <p>  paired with sends a locate request, and only at that moment. The app does not track you in</p>
-    <p>  the background and does not build a location history.</p>
+    <p>Outside these, the app does not collect your location and does not build a location
+       history. Only the most recent position is kept &mdash; there is no trail of where a
+       phone has been.</p>
     <ul>
-    <li><strong>A device identifier.</strong> An anonymous account id issued by Firebase Authentication and a</li>
+      <li><strong>Battery level.</strong> While a sharing session is running, your battery
+        percentage is sent with your position, so whoever is watching knows how long the phone
+        is likely to last.</li>
+      <li><strong>A device identifier.</strong> An anonymous account id issued by Firebase
+        Authentication and a Firebase Cloud Messaging registration token, used to deliver
+        requests to your phone.</li>
+      <li><strong>A device name.</strong> Whatever you type in settings. Choose a nickname if
+        you prefer.</li>
+      <li><strong>A pairing code.</strong> A random six-character code that identifies your
+        phone during pairing.</li>
+      <li><strong>Advertising identifier.</strong> The app shows adverts served by Google
+        AdMob, which uses your device&rsquo;s advertising ID to select and measure them.</li>
     </ul>
-    <p>  Firebase Cloud Messaging registration token, used to deliver locate requests to your phone.</p>
-    <ul>
-    <li><strong>A device name.</strong> Whatever you type in settings. Choose a nickname if you prefer.</li>
-    <li><strong>A pairing code.</strong> A random six-character code that identifies your phone during pairing.</li>
-    <li><strong>Advertising identifier.</strong> The app shows a single banner advert on its home screen, served</li>
-    </ul>
-    <p>  by Google AdMob. AdMob uses your device&#x27;s advertising ID to select and measure adverts.</p>
-    <p>We do <strong>not</strong> collect your name, email address, phone number, or contacts. The app does not</p>
-    <p>request access to your address book or your messages.</p>
+    <p>We do <strong>not</strong> collect your name, email address, phone number, or contacts.
+       The app does not request access to your address book or your messages.</p>
+    <p><strong>The microphone and camera are never used by this app.</strong> Saying a
+       phone&rsquo;s name to find it hands off to Android&rsquo;s own speech screen, which
+       returns only text; scanning a pairing QR code uses Google Play Services&rsquo; scanner.
+       Neither gives this app access to the microphone or the camera, and neither permission
+       appears in its listing.</p>
+
     <h2>How it is used</h2>
-    <p>Your <strong>location</strong> is used solely to deliver a locate request to the right phone and return the</p>
-    <p>answer to the phone that asked. Location is never used for advertising and is never sold.</p>
-    <p>The <strong>advertising ID</strong> is used only by Google AdMob to serve the banner on the home screen.</p>
+    <p>Your <strong>location</strong> is used solely to answer a request from a phone you have
+       paired with, or to feed a sharing session you or they started. It is never used for
+       advertising and is never sold.</p>
+    <p>The <strong>advertising ID</strong> is used only by Google AdMob to serve adverts. AdMob
+       does not receive your location.</p>
+
     <h2>Who it is shared with</h2>
     <ul>
-    <li><strong>The devices you pair with.</strong> A paired device can request your location, and you can</li>
+      <li><strong>The devices you pair with.</strong> A paired device can request your
+        location, ring your phone, and see a sharing session you have started. Pairing is
+        mutual and either side can end it at any time. You choose which paired phones receive
+        an SOS in Settings.</li>
+      <li><strong>Google Firebase</strong>, which hosts the authentication, database and
+        messaging this app runs on, as our data processor. See
+        <a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a>.</li>
+      <li><strong>Google AdMob</strong>, for the adverts, which receives your advertising ID
+        but not your location. See
+        <a href="https://support.google.com/admob/answer/6128543">support.google.com/admob/answer/6128543</a>.</li>
+      <li><strong>OpenStreetMap</strong>, whose tile servers receive the map area you are
+        viewing in order to serve the map images.</li>
     </ul>
-    <p>  request theirs. Pairing is mutual and either side can end it at any time.</p>
-    <ul>
-    <li><strong>Google Firebase</strong>, which hosts the authentication, database and messaging this app runs</li>
-    </ul>
-    <p>  on, as our data processor. See <a href="https://firebase.google.com/support/privacy">https://firebase.google.com/support/privacy</a>.</p>
-    <ul>
-    <li><strong>Google AdMob</strong>, for the single banner advert, which receives your advertising ID but not</li>
-    </ul>
-    <p>  your location. See <a href="https://support.google.com/admob/answer/6128543">https://support.google.com/admob/answer/6128543</a>.</p>
-    <ul>
-    <li><strong>OpenStreetMap</strong>, whose tile servers receive the map area you are viewing in order to serve</li>
-    </ul>
-    <p>  the map images.</p>
     <p>Nobody else.</p>
+
     <h2>How long it is kept</h2>
     <ul>
-    <li>Your device record and pairings are kept until you delete them or uninstall the app.</li>
-    <li>A locate answer is kept in the request record; delete it from the app, or it is removed</li>
+      <li>Your device record and pairings are kept until you delete them or uninstall the
+        app.</li>
+      <li>The most recent shared position is kept until a newer one replaces it, or until you
+        delete your data. Older positions are overwritten, not stored.</li>
+      <li>A locate answer is kept in the request record; delete it from the app, or it is
+        removed with your device record.</li>
     </ul>
-    <p>  with your device record.</p>
+
     <h2>Your control</h2>
     <ul>
-    <li><strong>See who can find you:</strong> Settings → Paired phones.</li>
-    <li><strong>Revoke:</strong> tap any paired phone to unpair. It takes effect immediately.</li>
-    <li><strong>Delete everything:</strong> open the app and choose <strong>Settings → Delete my data</strong>. This removes</li>
+      <li><strong>See who can find you:</strong> Settings &rarr; Paired phones.</li>
+      <li><strong>Revoke:</strong> tap any paired phone to unpair. It takes effect
+        immediately.</li>
+      <li><strong>Choose who gets an SOS:</strong> Settings &rarr; Who gets my SOS.</li>
+      <li><strong>Refuse remote stolen mode:</strong> Settings &rarr; <em>Let trusted phones
+        report this phone stolen</em>. It is off unless you turn it on, and turning it off
+        stops any session it started.</li>
+      <li><strong>Stop sharing at any time:</strong> the home screen shows a Stop button
+        whenever a session is running, and a permanent notification does the same.</li>
+      <li><strong>Delete everything:</strong> Settings &rarr; <strong>Delete my data</strong>.
+        This removes your device record, your pairings and your last shared location from our
+        service, and deletes the anonymous account itself. You can also email the address above
+        and we will delete your data within 30 days.</li>
+      <li><strong>Turn it off:</strong> revoke the location permission in Android settings, or
+        uninstall.</li>
+      <li><strong>Adverts:</strong> Settings &rarr; Ad privacy choices reopens the consent form
+        where that applies, and Android&rsquo;s own settings let you reset or delete your
+        advertising ID at any time.</li>
     </ul>
-    <p>  your device record, your pairings and your last shared location from our service, and deletes</p>
-    <p>  the anonymous account itself. You can also email the address above and we will delete your</p>
-    <p>  data within 30 days.</p>
-    <ul>
-    <li><strong>Turn it off:</strong> revoke the location permission in Android settings, or uninstall.</li>
-    <li><strong>Adverts:</strong> Settings → Ad privacy choices reopens the consent form where that applies, and</li>
-    </ul>
-    <p>  Android&#x27;s own settings let you reset or delete your advertising ID at any time.</p>
+
     <h2>Transparency</h2>
-    <p>Your phone shows a notification every time a paired device locates it. This is deliberate and</p>
-    <p>cannot be disabled from inside the app.</p>
+    <p>Your phone shows a notification every time a paired device locates it, and a permanent
+       notification for as long as any sharing session is running. Both are deliberate and
+       neither can be disabled from inside the app.</p>
+
     <h2>Children</h2>
-    <p>This app is not directed at children under 13 and we do not knowingly collect their data.</p>
+    <p>This app is not directed at children under 13 and we do not knowingly collect their
+       data.</p>
+
     <h2>Security</h2>
-    <p>Traffic is encrypted in transit. Database rules are default-deny: a device can read only its</p>
-    <p>own record, and a locate request is rejected by the server unless the two phones are paired.</p>
+    <p>Traffic is encrypted in transit. Database rules are default-deny: a device can read only
+       its own record, and a request from another phone is rejected by the server unless the
+       two phones are already paired with each other.</p>
+
     <h2>Changes</h2>
-    <p>If this policy changes materially we will update the date above and note the change in the</p>
-    <p>app&#x27;s release notes.</p>
+    <p>If this policy changes materially we will update the date above and note the change in
+       the app&rsquo;s release notes.</p>
   </main>
   <footer>Find my phone &middot; Privacy Policy</footer>
 </body>
